@@ -13,7 +13,7 @@ A read-only concierge over all of Taras's projects in `~/Documents/Projects`: it
 - **Read-only outside this repo.** Never write, commit or run anything in another project. To act in a project, give a **handoff** (see GLOSSARY.md); Taras runs it himself.
 - **Never read `archive/`.**
 - **Facts from the state script, judgement from the model.** Do not guess a project's state; run `scripts/state.sh`.
-- **`PORTFOLIO.md` holds only Taras's decisions**: at most 2 active projects and the deadlines, 10 lines at most. Never copy project state into it. Warn when a third project becomes active.
+- **`PORTFOLIO.md` holds only Taras's decisions**: at most 2 active items (a group of folders that form one project counts as one), a "Next" queue, and the deadlines; 10 lines at most. Never copy project state into it. Warn when a third item becomes active.
 - Open a project in VS Code with `cd <path> && vs .` (Taras's alias), never `code .`.
 
 ## Finishing a step
