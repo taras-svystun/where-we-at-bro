@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "additionalDirectories": [
+      "~/Documents/Projects",
+      "~/.claude/projects"
+    ],
+    "deny": [
+      "Read(~/Documents/Projects/archive/**)"
+    ],
+    "allow": [
+      "Bash(scripts/state.sh)"
+    ]
+  }
+}
