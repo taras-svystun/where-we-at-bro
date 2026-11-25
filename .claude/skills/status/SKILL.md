@@ -16,6 +16,11 @@ Write the answer in Ukrainian, in this order:
 
 - **Top 2**: for each, one line: the project, why now (the portfolio reason and the goal it serves), where Taras stopped (last commit or journal line, with its date), and the next step from the plan.
 - **Disagreements**, only if there are any: an active item with no commit for 7+ days; a non-active project with work in the last 2 days; uncommitted files in an active project; more than 2 active items. One line each, with the fact from the table.
-- **The rest**: one short line listing the other projects by days since their last commit. No table unless Taras asks.
+- **The rest**: one bullet per other project, sorted by days since its last commit, freshest first, with a text bar of one `▇` per 7 days (at least one). Example:
+  ```
+  - leads-dont-sleep  ▇▇ 9 д
+  - true-story-bro    ▇▇▇▇▇▇▇▇ 55 д
+  ```
+  Projects without git go in one last bullet. No table unless Taras asks.
 
 Stop there, under about 120 words. Do not suggest new projects or edit any file. To start work in a project, point to `/next <project>`.

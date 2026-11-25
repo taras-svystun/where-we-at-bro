@@ -19,7 +19,7 @@ Levels: L0 docs, L1 code (see the risk-scaled review rule).
 1. ✅ Setup: CLAUDE.md, GLOSSARY, plan, journal, README. (L0)
 2. ✅ State script `scripts/state.sh` and `.claude/settings.json` (read access to `~/Documents/Projects` and session logs, deny `archive/`). (L1)
    Check: prints one row per project; 3 rows picked at random match `git log -1` in those folders.
-3. `/status` skill, Opus, medium effort. (L1)
+3. ✅ `/status` skill, Opus, medium effort. (L1)
    Check: Taras runs it once and says whether the top 2 match his view.
 4. `/find <what>` skill, Sonnet. (L1)
    Check: `/find local AI on the phone` names the right project.
